@@ -7,7 +7,7 @@ function Contact() {
 
 <form class="container p-4 row g-3 mx-auto bg-info" style={{width:'18rem', marginTop:'8%'}}>
 <Header/>
-
+   
     <div class="col-12">
       <input placeholder='email address' type="email" class="form-control" id="inputEmail"/>
     </div>
