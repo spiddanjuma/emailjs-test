@@ -3,6 +3,7 @@ import Header from './component/header.jsx'
 import Name from './component/name.jsx'
 import Email from './component/Email.jsx'
 import Message from './component/message.jsx'
+import Send from './component/Send.jsx'
 function Contact() {
   return (
   <>
@@ -12,14 +13,11 @@ function Contact() {
 <Name />
 <Email/>
 <Message/>
+<Send />
    
-<div class="col-12">
-    <textarea placeholder='message us...' class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
+
    
-    <div class="col-12 mx-auto">
-      <button type="submit" class="btn col-6 btn-primary">Send</button>
-    </div>
+   
   </form>
   </>
   )
