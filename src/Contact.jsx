@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './component/header.jsx'
 import Name from './component/name.jsx'
 import Email from './component/Email.jsx'
+import Message from './component/message.jsx'
 function Contact() {
   return (
   <>
@@ -10,6 +11,7 @@ function Contact() {
 <Header/>
 <Name />
 <Email/>
+<Message/>
    
 <div class="col-12">
     <textarea placeholder='message us...' class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
